@@ -1,25 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="18276" started-at="2017-11-11T01:05:24Z" finished-at="2017-11-11T01:05:42Z">
+  <suite name="Surefire suite" duration-ms="44797" started-at="2017-11-17T23:18:58Z" finished-at="2017-11-17T23:19:42Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="18276" started-at="2017-11-11T01:05:24Z" finished-at="2017-11-11T01:05:42Z">
+    <test name="Surefire test" duration-ms="44797" started-at="2017-11-17T23:18:58Z" finished-at="2017-11-17T23:19:42Z">
       <class name="Home.TestAmazon">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Home.TestAmazon@6be46e8f]" name="setUP" is-config="true" duration-ms="10029" started-at="2017-11-10T20:05:24Z" finished-at="2017-11-10T20:05:34Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Home.TestAmazon@3551a94]" name="setUp" is-config="true" duration-ms="10192" started-at="2017-11-17T18:18:58Z" finished-at="2017-11-17T18:19:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[62]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.Amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="testHome()[pri:0, instance:Home.TestAmazon@6be46e8f]" name="testHome" duration-ms="7666" started-at="2017-11-10T20:05:34Z" finished-at="2017-11-10T20:05:42Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHome()[pri:0, instance:Home.TestAmazon@3551a94]" name="testHome" duration-ms="9901" started-at="2017-11-17T18:19:08Z" finished-at="2017-11-17T18:19:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHome -->
-        <test-method status="PASS" signature="closeUp()[pri:0, instance:Home.TestAmazon@6be46e8f]" name="closeUp" is-config="true" duration-ms="544" started-at="2017-11-10T20:05:42Z" finished-at="2017-11-10T20:05:42Z">
+        <test-method status="PASS" signature="closeUp()[pri:0, instance:Home.TestAmazon@3551a94]" name="closeUp" is-config="true" duration-ms="395" started-at="2017-11-17T18:19:18Z" finished-at="2017-11-17T18:19:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeUp -->
       </class> <!-- Home.TestAmazon -->
+      <class name="Searching.TestSearch">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Searching.TestSearch@531be3c5]" name="setUp" is-config="true" duration-ms="6485" started-at="2017-11-17T18:19:18Z" finished-at="2017-11-17T18:19:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[62]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.Amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testingSearch()[pri:0, instance:Searching.TestSearch@531be3c5]" name="testingSearch" duration-ms="17612" started-at="2017-11-17T18:19:25Z" finished-at="2017-11-17T18:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingSearch -->
+        <test-method status="PASS" signature="closeUp()[pri:0, instance:Searching.TestSearch@531be3c5]" name="closeUp" is-config="true" duration-ms="152" started-at="2017-11-17T18:19:42Z" finished-at="2017-11-17T18:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+      </class> <!-- Searching.TestSearch -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

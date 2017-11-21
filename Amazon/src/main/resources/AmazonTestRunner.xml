@@ -16,7 +16,8 @@
     <test name = "Test Amazon">
         <classes>
            <!-- <class name="page.AmazonSearch"/-->
-            <!--<class  name="searching.ItemsToBeSearched"/>-->
+            <class  name="Searching.TestSearch">
+            </class>
         </classes>
     </test>
 
